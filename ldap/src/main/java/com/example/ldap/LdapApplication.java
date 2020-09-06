@@ -1,12 +1,13 @@
-package com.example.springsecurity;
+package com.example.ldap;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InMemoryApplication {
+public class LdapApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(InMemoryApplication.class, args);
+        SpringApplication.run(LdapApplication.class, args);
     }
+
 }

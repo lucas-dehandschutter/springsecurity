@@ -1,4 +1,4 @@
-package com.example.springsecurity.configuration;
+package com.example.inmemory.configuration;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Bean;

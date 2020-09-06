@@ -1,4 +1,4 @@
-package com.example.springsecurity.restController;
+package com.example.inmemory.restController;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +10,6 @@ public class GreetingRestController {
 
     @GetMapping("/greeting")
     String greeting(Principal principal) {
-       return "hello, "+ principal.getName() +"!";
+        return "hello, " + principal.getName() + "!";
     }
 }
